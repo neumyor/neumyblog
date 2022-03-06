@@ -30,6 +30,7 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
 
+
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -106,9 +107,9 @@ deploy:
   repository: git@github.com:neumyor/neumy.github.io.git
   branch: master
 
-banner_img: /img/bg/background.jpg  
 
 post:
+  banner_img: 'img/bg/page_bg.png'
   math:
     enable: true
     specific: false
@@ -122,10 +123,11 @@ navbar:
     - { key: 'archive', link: '/archives/', icon: 'iconfont icon-archive-fill'}
     - { key: 'about', link: '/about/', icon: 'iconfont icon-user-fill'}
     
-  
+
   
 
 index:
+  banner_img: 'img/bg/index_bg.png'
   slogan:
     enable: true
     text: Appreciate Your Work
@@ -135,3 +137,4 @@ index:
       method: "GET"
       headers: {}
       keys: ["hitokoto"]
+      

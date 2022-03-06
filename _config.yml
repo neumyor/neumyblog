@@ -105,3 +105,6 @@ deploy:
   type: git
   repository: git@github.com:neumyor/neumy.github.io.git
   branch: master
+
+
+banner_img: '/img/bg/background.png'
