@@ -3,7 +3,7 @@ name: Deploy Hexo
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
@@ -14,7 +14,7 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v2
         with:
-          ref: master
+          ref: main
 
       - name: Setup Node.js
         uses: actions/setup-node@v1
