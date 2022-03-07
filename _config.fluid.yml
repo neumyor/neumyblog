@@ -112,7 +112,7 @@ post:
   banner_img: 'img/bg/page_bg.png'
   math:
     enable: true
-    specific: false
+    specific: falseheco 
     engine: mathjax
     
 navbar:
@@ -130,7 +130,7 @@ index:
   banner_img: 'img/bg/index_bg.png'
   slogan:
     enable: true
-    text: Appreciate Your Work
+    text: 'neumy的猫窝'
     api:
       enable: false
       url: "https://v1.hitokoto.cn/"
