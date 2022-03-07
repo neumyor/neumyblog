@@ -1,7 +1,8 @@
 ---
-title: 结对编程
+title: 对结对编程的个人理解
 subtitle: 开飞机，芜湖，起飞
 date: 2022-03-07 10:00:00
+mathjax: true
 ---
 
 # 结对编程 Pair Programming

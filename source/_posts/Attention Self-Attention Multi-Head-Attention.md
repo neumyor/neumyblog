@@ -2,6 +2,7 @@
 title: 从Attention 到 MultiHeadAttention
 subtitle: 小笔记
 date: 2022-02-24 10:00:00
+mathjax: true
 ---
 
 # 从Attention 到 MultiHeadAttention

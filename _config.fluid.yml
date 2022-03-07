@@ -112,7 +112,7 @@ post:
   banner_img: 'img/bg/page_bg.png'
   math:
     enable: true
-    specific: falseheco 
+    specific: false
     engine: mathjax
     
 navbar:
@@ -137,4 +137,9 @@ index:
       method: "GET"
       headers: {}
       keys: ["hitokoto"]
+      
+footer:
+  content: '
+    <a href="https://www.cnblogs.com/neumy/" target="_blank" rel="nofollow noopener"><span>neumy的博客园</span></a>
+    '
       
