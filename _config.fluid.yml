@@ -141,6 +141,6 @@ index:
       
 footer:
   content: '
-    <a href="https://www.cnblogs.com/neumy/" target="_blank" rel="nofollow noopener"><span>don't touch me</span></a>
+    <a href="https://www.cnblogs.com/neumy/" target="_blank" rel="nofollow noopener"><span>don''t touch me</span></a>
     '
       
