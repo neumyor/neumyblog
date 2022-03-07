@@ -1,6 +1,7 @@
 ---
 title: 软工第一次阅读作业
 subtitle: 软件工程博客作业
+date: 2022-03-06 10:00:00
 ---
 
 
@@ -180,11 +181,11 @@ Gitee Go最让我影响深刻的是其**非常友好的图形视图**，可以�
 
 Hexo是静态的框架，因此如果不使用CI/CD的情况下，需要手动构建和部署。
 
-现在的解决方案是，采用一个项目A作为Hexo项目，然后利用Github Action进行自动构建，然后自动部署到Github Page对应项目B中，免去了本地构建的麻烦。
+现在的解决方案是，**采用一个项目A作为Hexo项目，然后利用Github Action进行自动构建与部署**，然后自动部署到Github Page对应项目B中，免去了本地构建的麻烦。注意这里**项目A不是github.io项目**，而是专用于存储文档的。项目B才是github.io项目，可以视作部署环境。
 
 [用于存储代码和文档的项目A](https://github.com/neumyor/neumyblog)
 
 [用于部署网站的项目B](https://github.com/neumyor/neumyor.github.io)
 
-![github上的截图](/img/blog/SEGITHUBGITACTIONPAGE.png)
+![github上的项目A自动构建过程截图](/img/blog/SEGITHUBGITACTIONPAGE.png)
 
