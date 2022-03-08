@@ -114,6 +114,23 @@ post:
     enable: true
     specific: false
     engine: mathjax
+  comments:
+    enable: true
+    type: gitalk   
+    
+gitalk:
+  clientID: '533ca9e230c278125ce3'                           # 创建应用后的 Client id
+  clientSecret: '8d95c044ec6ae97f7158bef00454103d93ee9b71'                       # 创建应用后的 Client secrets
+  repo: 'neumyor.github.io'                                     # 评论用的仓库名称
+  owner: 'neumyor'                                          # 填自己github账户名字就好
+  admin: ['neumyor']                                        # 填自己github账户名字就好
+  language: zh-CN
+  labels: ['Gitalk']
+  perPage: 10
+  pagerDirection: first
+  distractionFreeMode: false
+  createIssueManually: true
+  proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
     
 navbar:
   blog_title: neumyog
