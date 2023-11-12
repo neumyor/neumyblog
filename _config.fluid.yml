@@ -133,7 +133,7 @@ gitalk:
   proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token'
     
 navbar:
-  blog_title: neumyog
+  blog_title: neumyor's blog
   menu:
     - { key: 'home', link: '/', icon: 'iconfont icon-home-fill', name:'home'}
     - { key: 'tag', link: '/tags/', icon: 'iconfont icon-tags-fill' }
@@ -147,7 +147,7 @@ index:
   banner_img: 'img/bg/index_bg.png'
   slogan:
     enable: true
-    text: 'neumy的猫窝'
+    text: 'neumyor的猫窝'
     api:
       enable: false
       url: "https://v1.hitokoto.cn/"
